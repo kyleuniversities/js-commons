@@ -1,6 +1,6 @@
-import { binarySearch } from '../commons/array/array-search';
-import { binaryIntegerSort } from '../commons/array/array-sort';
-import { nextInt } from '../commons/random';
+import { binarySearch } from '../commons/helper/array/array-search';
+import { binaryIntegerSort } from '../commons/helper/array/array-sort';
+import { nextInt } from '../commons/helper/random';
 
 describe('testing array search functions', () => {
   test('binarySearch() searches an array', () => {

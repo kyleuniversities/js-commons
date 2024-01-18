@@ -1,5 +1,5 @@
-import { binaryIntegerSort } from '../commons/array/array-sort';
-import { nextInt } from '../commons/random';
+import { binaryIntegerSort } from '../commons/helper/array/array-sort';
+import { nextInt } from '../commons/helper/random';
 
 describe('testing array sort functions', () => {
   test('binaryIntegerSort() sorts an array', () => {

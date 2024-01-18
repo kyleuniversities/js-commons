@@ -1,5 +1,5 @@
-import { clone, swap } from '../commons/array/array';
-import { nextInt } from '../commons/random';
+import { clone, swap } from '../commons/helper/array/array';
+import { nextInt } from '../commons/helper/random';
 
 describe('testing array functions', () => {
   test('clone() clones an array', () => {
