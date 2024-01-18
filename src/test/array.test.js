@@ -1,4 +1,4 @@
-import { clone, swap } from '../commons/array';
+import { clone, swap } from '../commons/array/array';
 import { nextInt } from '../commons/random';
 
 describe('testing array functions', () => {
